@@ -538,6 +538,7 @@ header a {
   height: 1000px;
   display: flex;
   justify-content: center;
+  border: solid 2px black;
 }
 .left-segment {
   flex-basis: 100%;
