@@ -187,6 +187,9 @@ header a {
   display: flex;
 }
 .paragraph {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
   color: white;
   display: flex;
   align-items: center;
@@ -422,7 +425,7 @@ header a {
   margin-top: 80px;
 }
 .para13 {
-  width: 10%;
+  width: 7%;
   margin-left: auto;
   margin-right: auto;
   border: solid 2px black;
@@ -800,7 +803,7 @@ footer {
   }
   .para17 {
     width: 100%;
-    font-size: 24px;
+    font-size: 20px;
   }
   .bottom a {
     font-size: 12px;
