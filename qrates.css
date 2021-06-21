@@ -7,8 +7,10 @@ header {
   margin-right: auto;
   padding: 12px;
 }
-body{
-    left: 0px;
+body {
+  left: 0px;
+  margin: 0px;
+  padding-left: 10px;
 }
 header a {
   text-decoration: none;
@@ -28,6 +30,7 @@ header a {
   background-color: black;
   color: white;
   font-size: 16px;
+  border: none;
 }
 .container1 {
   max-width: 1450px;
@@ -51,17 +54,17 @@ header a {
   transform-origin: left;
 }
 .why-qrates {
-  width: 110px;
+  display: inline-block;
   border: solid 1px black;
   padding: 6px;
 }
 .left-content h1 {
-  width: 400px;
   font-size: 70px;
+  padding-right: 35px;
 }
 .para1 {
   font-size: 28px;
-  width: 500px;
+  padding-right: 35px;
 }
 .container2 {
   max-width: 1450px;
@@ -124,7 +127,7 @@ header a {
   width: 50%;
 }
 .para3 {
-  width: 22%;
+  display: inline-block;
   border: solid 2px black;
   margin-left: auto;
   margin-right: auto;
@@ -141,7 +144,7 @@ header a {
   width: 65%;
 }
 .para5 {
-  width: 15%;
+  display: inline-block;
   border: solid 2px black;
   margin-left: auto;
   margin-right: auto;
@@ -162,23 +165,23 @@ header a {
   width: 100%;
   background-color: #81836c;
 }
-.button1,
-.button2 {
-  width: 35%;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 60px;
+.button {
+  text-align: center;
+  margin-top: 40px;
 }
+
 .but {
-  width: 100%;
   border: solid 2px black;
-  padding-top: 16px;
-  padding-bottom: 16px;
-  padding-right: 42px;
-  padding-left: 42px;
   border-radius: 40px;
   color: white;
   background-color: black;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 12px;
+  padding-bottom: 12px;
 }
 .container4 {
   max-width: 1450px;
@@ -228,7 +231,7 @@ header a {
   border: solid 2px black;
 }
 .para7 {
-  width: 17%;
+  display: inline-block;
   border: solid 2px black;
   margin-left: auto;
   margin-right: auto;
@@ -275,7 +278,7 @@ header a {
 .table3 {
   display: flex;
   flex-direction: column;
-  width: 80%;
+  width: 95%;
   border: solid 1px black;
   margin-left: auto;
   margin-right: auto;
@@ -337,7 +340,7 @@ header a {
   background-color: #000000;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: space-around;
   height: auto;
 }
 .right-part {
@@ -354,32 +357,38 @@ header a {
   margin-left: auto;
   margin-right: auto;
 }
-.black-img{
-    width: 100%;
-    height: auto;
+.black-img {
+  width: 100%;
+  height: auto;
 }
 .para9 {
-  width: 20%;
+  display: inline-block;
   margin-left: auto;
   margin-right: auto;
-  color: black;
   background-color: white;
   padding: 8px;
+  color: #000000;
+  font-size: 16px;
+  margin-bottom: 20px;
 }
 .para10 {
-  width: 60%;
+  width: 90%;
   margin-left: auto;
   margin-right: auto;
   color: white;
-  font-size: 18px;
+  font-size: 20px;
+  margin-top: 20px;
 }
-.about-back-img1 h1 {
+.about-back-img1 {
   color: white;
-  width: 50%;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
-  font-size: 40px;
+}
+.about-back-img1 h1,
+.about-back-img2 h1 {
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 .back-img2 {
   width: 90%;
@@ -393,13 +402,14 @@ header a {
   border: solid 2px black;
 }
 .para11 {
-  width: 23%;
+  display: inline-block;
   margin-left: auto;
   margin-right: auto;
   color: black;
   background-color: white;
   padding: 8px;
   border: solid 2px black;
+  margin-top: 70px;
 }
 .para12 {
   width: 80%;
@@ -407,11 +417,9 @@ header a {
   margin-right: auto;
   font-size: 24px;
 }
-.about-back-img2 h1 {
-  width: 70%;
+.about-back-img2 {
   margin-left: auto;
   margin-right: auto;
-  font-size: 40px;
   text-align: center;
   margin-bottom: 0px;
   margin-top: 0px;
@@ -422,43 +430,47 @@ header a {
 }
 .container7 {
   max-width: 1450px;
-  width: 100%;
   margin-left: auto;
   margin-right: auto;
   height: auto;
   margin-top: 80px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .para13 {
-  width: 7%;
+  display: inline-block;
   margin-left: auto;
   margin-right: auto;
   border: solid 2px black;
   padding: 10px;
   font-size: 14px;
 }
-.container7 h1 {
-  text-align: center;
-}
+
 .para14 {
-  width: 40%;
+  width: 100%;
   margin-left: auto;
   margin-right: auto;
   font-size: 22px;
 }
 .para15 {
-  width: 10%;
   margin-left: auto;
   margin-right: auto;
   border-radius: 24px;
+  border: solid 2px black;
   padding-top: 12px;
   padding-bottom: 12px;
-  padding-left: 42px;
-  padding-right: 42px;
-  border: solid 2px black;
+  padding-left: 44px;
+  padding-right: 44px;
 }
 .sticker {
   width: 180px;
   height: 150px;
+  position: absolute;
+  right: 30px;
+  top: -80px;
 }
 .container8 {
   max-width: 1450px;
@@ -466,7 +478,8 @@ header a {
   margin-right: auto;
   width: 100vw;
   display: flex;
-  height: 700px;
+  height: auto;
+  position: relative;
 }
 .left-image {
   width: 100%;
@@ -535,7 +548,7 @@ header a {
   background-size: cover;
 }
 .para16 {
-  width: 25%;
+  display: inline-block;
   border: solid 2px black;
   background-color: white;
   margin-top: 40px;
@@ -574,31 +587,32 @@ header a {
 .container11 {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  align-content: center;
   row-gap: 20px;
+  text-align: center;
 }
+
 .para18 {
-  width: 10%;
+  display: inline-block;
   margin-left: auto;
   margin-right: auto;
   border: solid 2px white;
   color: white;
-  padding: 10px;
+  padding: 8px;
   margin-top: 8%;
+  font-size: 16px;
 }
 .container11 h1 {
   color: white;
-  width: 25%;
   margin-left: auto;
   margin-right: auto;
-  font-size: 40px;
   margin-top: 0px;
   margin-bottom: 0px;
 }
 .para19 {
   color: white;
   font-size: 22px;
-  width: 50%;
+  width: 60%;
   margin-left: auto;
   margin-right: auto;
 }
@@ -613,14 +627,19 @@ header a {
   margin-right: auto;
 }
 .button4 {
-  width: 24%;
   margin-left: auto;
   margin-right: auto;
-  padding: 27px;
+  padding-top: 28px;
+  padding-bottom: 28px;
+  padding-right: 120px;
+  padding-left: 120px;
   border-radius: 40px;
   margin-top: 40px;
   margin-bottom: 50px;
   background-color: #fff804;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
 }
 
 .top-footer {
@@ -745,11 +764,11 @@ footer {
     flex-direction: column-reverse;
   }
   .but {
+    width: 90%;
     font-size: 12px;
   }
-  .button1,
-  .button2 {
-    padding-bottom: 40px;
+  .para10 {
+    width: 90%;
   }
   .paragraph {
     flex-direction: column;
@@ -758,18 +777,14 @@ footer {
     margin-right: auto;
     text-align: center;
   }
-  .para7 {
-    width: 40%;
-  }
+
   .para9 {
     width: 43%;
   }
   .para11 {
     width: 50%;
   }
-  .para13 {
-    width: 30%;
-  }
+
   .container5 {
     flex-direction: column;
     row-gap: 30px;
@@ -786,10 +801,6 @@ footer {
     width: 80%;
     text-align: center;
   }
-  .para15 {
-    width: 60%;
-    text-align: center;
-  }
   .left-image {
     display: none;
   }
@@ -803,18 +814,13 @@ footer {
   .right-segment {
     background-position: center;
   }
-  .para16 {
-    width: 50%;
-  }
+
   .para17 {
     width: 100%;
     font-size: 20px;
   }
   .bottom a {
     font-size: 12px;
-  }
-  .para18 {
-    width: 40%;
   }
   .container11 h1 {
     width: 90%;
@@ -836,8 +842,8 @@ footer {
   }
   .button4 {
     width: 80%;
-    padding-bottom: 12px;
     padding-top: 12px;
+    padding-bottom: 12px;
   }
   .top-footer {
     flex-direction: column;
@@ -872,6 +878,12 @@ footer {
   .heading {
     font-size: 26px;
   }
+  .right-image {
+    height: 100vw;
+  }
+  .button3 {
+    width: 80%;
+  }
 }
 
 @media all and (min-width: 521px) and (max-width: 920px) {
@@ -895,7 +907,9 @@ footer {
   .pic2 {
     margin-left: 0px;
   }
-
+  .para10 {
+    width: 90%;
+  }
   .container3 {
     flex-direction: column;
     height: auto;
@@ -903,10 +917,6 @@ footer {
   .crowd,
   .press {
     flex-direction: column-reverse;
-  }
-  .button1,
-  .button2 {
-    padding-bottom: 40px;
   }
   .paragraph {
     flex-direction: column;
@@ -926,10 +936,6 @@ footer {
     width: 80%;
     text-align: center;
   }
-  .para15 {
-    width: 60%;
-    text-align: center;
-  }
   .left-image {
     display: none;
   }
@@ -942,8 +948,11 @@ footer {
   .right-segment {
     background-position: center;
   }
-  .para16 {
-    width: 28%;
+  .but {
+    width: 90%;
+  }
+  .button3 {
+    width: 80%;
   }
   .para17 {
     width: 100%;
@@ -952,24 +961,16 @@ footer {
   .bottom a {
     font-size: 12px;
   }
-  .para18 {
-    width: 20%;
-  }
+
   .container11 h1 {
     width: 90%;
     font-size: 32px;
   }
   .para19 {
-    width: 90%;
     text-align: center;
     font-size: 18px;
   }
 
-  .button4 {
-    width: 80%;
-    padding-bottom: 12px;
-    padding-top: 12px;
-  }
   .top-footer {
     flex-direction: column;
     row-gap: 30px;
