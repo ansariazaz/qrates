@@ -793,7 +793,9 @@ footer {
   .container6 {
     flex-direction: column;
   }
-
+ .container7 h1{
+     text-align: center;
+ }
   .services h1 {
     font-size: 24px;
     width: 70%;
@@ -801,6 +803,9 @@ footer {
   .para14 {
     width: 80%;
     text-align: center;
+  }
+  .para15{
+      margin-bottom: 85px;
   }
   .left-image {
     display: none;
@@ -932,6 +937,9 @@ footer {
   }
   .container6 {
     flex-direction: column;
+  }
+  .container7 h1{
+      text-align: center;
   }
   .para14 {
     width: 80%;
