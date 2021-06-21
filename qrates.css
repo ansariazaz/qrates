@@ -7,6 +7,9 @@ header {
   margin-right: auto;
   padding: 12px;
 }
+body{
+    left: 0px;
+}
 header a {
   text-decoration: none;
   color: black;
@@ -347,12 +350,13 @@ header a {
 }
 .back-img1 {
   width: 90%;
-  background-image: url("https://qrates.com/assets/public/store_logo-79e5bd7ae24bdd107046bcc2fb8b8f01c4bd51e2a94c2055d1a5015adc1083b3.png");
-  background-size: cover;
-  background-position: center;
-  height: 400px;
+  height: auto;
   margin-left: auto;
   margin-right: auto;
+}
+.black-img{
+    width: 100%;
+    height: auto;
 }
 .para9 {
   width: 20%;
@@ -565,6 +569,7 @@ header a {
   margin-right: auto;
   background-color: black;
   margin-top: 0px;
+  width: 100vw;
 }
 .container11 {
   display: flex;
