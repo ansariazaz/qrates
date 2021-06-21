@@ -45,6 +45,7 @@ header a {
   margin-left: auto;
   margin-right: auto;
   padding: 16px;
+  box-sizing: border-box;
 }
 .left-content {
   width: 50%;
@@ -83,6 +84,7 @@ header a {
   justify-content: center;
   border-bottom: solid 2px black;
   padding: 16px;
+  box-sizing: border-box;
 }
 .left-pic {
   width: 45%;
@@ -223,6 +225,7 @@ header a {
   display: flex;
   margin-top: 40px;
   width: 100vw;
+  overflow-x: hidden;
 }
 .services {
   width: 100%;
@@ -238,6 +241,7 @@ header a {
   transform-origin: left;
   margin-top: 100px;
   border: solid 2px black;
+  overflow-x: hidden;
 }
 .para7 {
   display: inline-block;
@@ -451,6 +455,7 @@ header a {
   justify-content: center;
   align-items: center;
   margin-bottom: 40px;
+  box-sizing: border-box;
 }
 .para13 {
   display: inline-block;
@@ -494,6 +499,7 @@ header a {
   height: auto;
   position: relative;
   padding: 16px;
+  box-sizing: border-box;
 }
 .left-image {
   width: 100%;
@@ -539,6 +545,7 @@ header a {
   justify-content: space-around;
   font-weight: bold;
   font-size: 20px;
+  box-sizing: border-box;
 }
 .container9 a {
   color: black;
@@ -602,6 +609,7 @@ header a {
   background-color: black;
   margin-top: 0px;
   width: 100vw;
+  box-sizing: border-box;
 }
 .container11 {
   display: flex;
@@ -609,6 +617,7 @@ header a {
   align-content: center;
   row-gap: 20px;
   text-align: center;
+  box-sizing: border-box;
 }
 
 .para18 {
@@ -636,7 +645,7 @@ header a {
   margin-right: auto;
 }
 .last-image {
-  width: 100%;
+  width: 95%;
   height: auto;
 }
 .last-pic {
@@ -672,6 +681,7 @@ footer {
   margin-right: auto;
   margin-top: 150px;
   padding: 10px;
+  box-sizing: border-box;
 }
 .left-footer {
   display: flex;
@@ -750,6 +760,7 @@ footer {
   }
   .para1 {
     width: 90%;
+    padding-left: 0px;
   }
   .logo {
     width: 20%;
@@ -865,7 +876,7 @@ footer {
     margin-top: 0px;
   }
   .button4 {
-    width: 80%;
+    width: 95%;
     padding-top: 12px;
     padding-bottom: 12px;
   }
@@ -911,6 +922,9 @@ footer {
   .icon i{
     margin-right: 12px;
 }
+.left-content h1{
+    padding-right: 0px;
+}
 }
 
 @media all and (min-width: 521px) and (max-width: 920px) {
@@ -933,6 +947,9 @@ footer {
   .para1,
   .left-pic {
     width: 100%;
+  }
+  .para1{
+      padding-left: 0px;
   }
   .pic2 {
     margin-left: 0px;
@@ -1024,6 +1041,10 @@ footer {
   .icon i{
     margin-right: 12px;
 }
+.left-content h1{
+    padding-right: 0px;
+}
+
 }
 @media all and (min-width:921px) and (max-width:1450px) {
     .icon{
