@@ -335,6 +335,7 @@ header a {
   margin-top: 50px;
   height: auto;
   width: 100vw;
+  border: solid 2px black;
 }
 .left-part {
   width: 100%;
